@@ -1,0 +1,260 @@
+{
+  "overall_acc": 0.9616372980910426,
+  "small_acc": 0.9133627019089574,
+  "noisy_acc": 0.9074355083459787,
+  "total_samples": 5448,
+  "small_samples": 1362,
+  "noisy_samples": 659,
+  "error_examples": [
+    {
+      "path": "0/00082_3.jpg",
+      "target": 0,
+      "pred": 8
+    },
+    {
+      "path": "0/00130_7.jpg",
+      "target": 0,
+      "pred": 4
+    },
+    {
+      "path": "0/00365_2.jpg",
+      "target": 0,
+      "pred": 2
+    },
+    {
+      "path": "0/00527_0.jpg",
+      "target": 0,
+      "pred": 1
+    },
+    {
+      "path": "0/00609_6.jpg",
+      "target": 0,
+      "pred": 6
+    },
+    {
+      "path": "0/00621_3.jpg",
+      "target": 0,
+      "pred": 8
+    },
+    {
+      "path": "0/00626_7.jpg",
+      "target": 0,
+      "pred": 4
+    },
+    {
+      "path": "0/00744_4.jpg",
+      "target": 0,
+      "pred": 2
+    },
+    {
+      "path": "0/01451_4.jpg",
+      "target": 0,
+      "pred": 6
+    },
+    {
+      "path": "0/01471_7.jpg",
+      "target": 0,
+      "pred": 6
+    },
+    {
+      "path": "0/01474_7.jpg",
+      "target": 0,
+      "pred": 4
+    },
+    {
+      "path": "0/01498_7.jpg",
+      "target": 0,
+      "pred": 4
+    },
+    {
+      "path": "0/01593_6.jpg",
+      "target": 0,
+      "pred": 4
+    },
+    {
+      "path": "0/01610_6.jpg",
+      "target": 0,
+      "pred": 7
+    },
+    {
+      "path": "0/01644_7.jpg",
+      "target": 0,
+      "pred": 6
+    },
+    {
+      "path": "0/02401_4.jpg",
+      "target": 0,
+      "pred": 6
+    },
+    {
+      "path": "0/02435_7.jpg",
+      "target": 0,
+      "pred": 6
+    },
+    {
+      "path": "0/02533_6.jpg",
+      "target": 0,
+      "pred": 8
+    },
+    {
+      "path": "0/02721_7.jpg",
+      "target": 0,
+      "pred": 4
+    },
+    {
+      "path": "0/03061_7.jpg",
+      "target": 0,
+      "pred": 4
+    },
+    {
+      "path": "0/03196_6.jpg",
+      "target": 0,
+      "pred": 4
+    },
+    {
+      "path": "0/03257_7.jpg",
+      "target": 0,
+      "pred": 8
+    },
+    {
+      "path": "0/03308_7.jpg",
+      "target": 0,
+      "pred": 6
+    },
+    {
+      "path": "0/03422_6.jpg",
+      "target": 0,
+      "pred": 8
+    },
+    {
+      "path": "0/03440_5.jpg",
+      "target": 0,
+      "pred": 6
+    },
+    {
+      "path": "0/03446_7.jpg",
+      "target": 0,
+      "pred": 4
+    },
+    {
+      "path": "0/03498_7.jpg",
+      "target": 0,
+      "pred": 6
+    },
+    {
+      "path": "0/03534_8.jpg",
+      "target": 0,
+      "pred": 4
+    },
+    {
+      "path": "0/03642_7.jpg",
+      "target": 0,
+      "pred": 4
+    },
+    {
+      "path": "1/00036_6.jpg",
+      "target": 1,
+      "pred": 2
+    },
+    {
+      "path": "1/00051_6.jpg",
+      "target": 1,
+      "pred": 3
+    },
+    {
+      "path": "1/00285_0.jpg",
+      "target": 1,
+      "pred": 5
+    },
+    {
+      "path": "1/00320_6.jpg",
+      "target": 1,
+      "pred": 5
+    },
+    {
+      "path": "1/00368_6.jpg",
+      "target": 1,
+      "pred": 4
+    },
+    {
+      "path": "1/00431_6.jpg",
+      "target": 1,
+      "pred": 4
+    },
+    {
+      "path": "1/00599_6.jpg",
+      "target": 1,
+      "pred": 3
+    },
+    {
+      "path": "1/00887_0.jpg",
+      "target": 1,
+      "pred": 5
+    },
+    {
+      "path": "1/00915_6.jpg",
+      "target": 1,
+      "pred": 6
+    },
+    {
+      "path": "1/00941_4.jpg",
+      "target": 1,
+      "pred": 4
+    },
+    {
+      "path": "1/01075_6.jpg",
+      "target": 1,
+      "pred": 6
+    },
+    {
+      "path": "1/01098_6.jpg",
+      "target": 1,
+      "pred": 4
+    },
+    {
+      "path": "1/01111_6.jpg",
+      "target": 1,
+      "pred": 4
+    },
+    {
+      "path": "1/01367_2.jpg",
+      "target": 1,
+      "pred": 2
+    },
+    {
+      "path": "1/01390_1.jpg",
+      "target": 1,
+      "pred": 2
+    },
+    {
+      "path": "1/01427_2.jpg",
+      "target": 1,
+      "pred": 5
+    },
+    {
+      "path": "1/01508_0.jpg",
+      "target": 1,
+      "pred": 5
+    },
+    {
+      "path": "1/01592_4.jpg",
+      "target": 1,
+      "pred": 4
+    },
+    {
+      "path": "1/01598_5.jpg",
+      "target": 1,
+      "pred": 4
+    },
+    {
+      "path": "1/01632_5.jpg",
+      "target": 1,
+      "pred": 3
+    },
+    {
+      "path": "1/01659_1.jpg",
+      "target": 1,
+      "pred": 4
+    }
+  ]
+}

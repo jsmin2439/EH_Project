@@ -1,0 +1,76 @@
+<html><head><style>table { border-collapse: collapse; width: 100%; margin: 20px 0; }th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }th { background-color: #f2f2f2; font-weight: bold; }tr:nth-child(even) { background-color: #f9f9f9; }</style></head><body><h2>Experiment Comparison Table</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Experiment</th>
+      <th>Best Val Acc</th>
+      <th>Final Overall Acc</th>
+      <th>Small Acc</th>
+      <th>Noisy Acc</th>
+      <th>Total Samples</th>
+      <th>Error Count</th>
+      <th>Error Rate</th>
+      <th>Learning Rate</th>
+      <th>Batch Size</th>
+      <th>Epochs</th>
+      <th>Optimizer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Superres Tta Resnet20</td>
+      <td>0.9868</td>
+      <td>0.9872</td>
+      <td>0.9780</td>
+      <td>0.9575</td>
+      <td>5448</td>
+      <td>50</td>
+      <td>0.92%</td>
+      <td>0.0007</td>
+      <td>64</td>
+      <td>60</td>
+      <td>adamw</td>
+    </tr>
+    <tr>
+      <td>Augmented Resnet20</td>
+      <td>0.9616</td>
+      <td>0.9616</td>
+      <td>0.9134</td>
+      <td>0.9074</td>
+      <td>5448</td>
+      <td>50</td>
+      <td>0.92%</td>
+      <td>0.0010</td>
+      <td>64</td>
+      <td>60</td>
+      <td>adam</td>
+    </tr>
+    <tr>
+      <td>Baseline Resnet20</td>
+      <td>0.9917</td>
+      <td>0.9917</td>
+      <td>0.9838</td>
+      <td>0.9742</td>
+      <td>5448</td>
+      <td>45</td>
+      <td>0.83%</td>
+      <td>0.1000</td>
+      <td>64</td>
+      <td>60</td>
+      <td>sgd</td>
+    </tr>
+    <tr>
+      <td>Baseline Resnet32</td>
+      <td>0.9934</td>
+      <td>0.9934</td>
+      <td>0.9868</td>
+      <td>0.9863</td>
+      <td>5448</td>
+      <td>36</td>
+      <td>0.66%</td>
+      <td>0.1000</td>
+      <td>64</td>
+      <td>60</td>
+      <td>sgd</td>
+    </tr>
+  </tbody>
+</table></body></html>

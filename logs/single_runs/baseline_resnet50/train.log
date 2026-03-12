@@ -1,0 +1,8 @@
+[2025-10-20 07:14:16] Running experiment 'baseline_resnet50' (ResNet50 + SGD(momentum) + 기본 전처리)
+[2025-10-20 07:14:16] Model: resnet50, optimizer: sgd, lr: 0.05, wd: 0.0005, epochs: 60, batch_size: 64
+[2025-10-20 07:16:34] Epoch 1/60 | Train Loss: 2.6112 | Train Acc: 0.3330 | Val Acc: 0.3638
+[2025-10-20 07:18:51] Epoch 2/60 | Train Loss: 1.4923 | Train Acc: 0.5221 | Val Acc: 0.8064
+[2025-10-20 07:21:09] Epoch 3/60 | Train Loss: 0.2904 | Train Acc: 0.9137 | Val Acc: 0.9688
+[2025-10-20 07:23:26] Epoch 4/60 | Train Loss: 0.1382 | Train Acc: 0.9617 | Val Acc: 0.9648
+[2025-10-20 07:25:44] Epoch 5/60 | Train Loss: 0.1006 | Train Acc: 0.9735 | Val Acc: 0.9833
+[2025-10-20 07:28:01] Epoch 6/60 | Train Loss: 0.0839 | Train Acc: 0.9779 | Val Acc: 0.9776

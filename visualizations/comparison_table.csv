@@ -1,0 +1,5 @@
+Experiment,Best Val Acc,Final Overall Acc,Small Acc,Noisy Acc,Total Samples,Error Count,Error Rate,Learning Rate,Batch Size,Epochs,Optimizer
+Superres Tta Resnet20,0.9868,0.9872,0.9780,0.9575,5448,50,0.92%,0.0007,64,60,adamw
+Augmented Resnet20,0.9616,0.9616,0.9134,0.9074,5448,50,0.92%,0.001,64,60,adam
+Baseline Resnet20,0.9917,0.9917,0.9838,0.9742,5448,45,0.83%,0.1,64,60,sgd
+Baseline Resnet32,0.9934,0.9934,0.9868,0.9863,5448,36,0.66%,0.1,64,60,sgd

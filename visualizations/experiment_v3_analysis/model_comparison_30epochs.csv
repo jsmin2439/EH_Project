@@ -1,0 +1,5 @@
+Model,30-Epoch Val Acc,Best Val Acc (30ep),30-Epoch Train Acc,30-Epoch Train Loss,Convergence Speed (epochs),Stability (std),Overfitting Gap,Small Digit Acc,Noisy Acc,Small Samples,Noisy Samples
+ResNet-20,0.9791,0.9892,0.9916,0.0392,2,0.0213,0.0125,0.9838,0.9742,1362.0,659.0
+ConvNeXt,0.9988,0.9988,0.9959,0.0167,1,0.0028,-0.0029,,,,
+Swin Transformer,0.9975,0.9975,0.9900,0.0313,1,0.0017,-0.0075,,,,
+ResNet-32x4-Wide,0.9905,0.9905,0.9960,0.0143,1,0.0015,0.0056,,,,

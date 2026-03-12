@@ -1,0 +1,161 @@
+[2025-10-19 14:17:31] Running experiment 'augmented_resnet20' (강화된 데이터 증강 + 하드 샘플 가중)
+[2025-10-19 14:17:31] Hard example sampler requested but no matching samples found; falling back to shuffle.
+[2025-10-19 14:17:32] Model: resnet20, optimizer: adam, lr: 0.001, wd: 0.0005, epochs: 60, batch_size: 64
+[2025-10-19 14:17:48] Epoch 1/60 | Train Loss: 1.0037 | Train Acc: 0.6851 | Val Acc: 0.8592
+[2025-10-19 14:18:04] Epoch 2/60 | Train Loss: 0.4094 | Train Acc: 0.8786 | Val Acc: 0.7733
+[2025-10-19 14:18:20] Epoch 3/60 | Train Loss: 0.3043 | Train Acc: 0.9107 | Val Acc: 0.9253
+[2025-10-19 14:18:36] Epoch 4/60 | Train Loss: 0.2638 | Train Acc: 0.9218 | Val Acc: 0.9106
+[2025-10-19 14:18:52] Epoch 5/60 | Train Loss: 0.2376 | Train Acc: 0.9285 | Val Acc: 0.9031
+[2025-10-19 14:19:08] Epoch 6/60 | Train Loss: 0.2263 | Train Acc: 0.9326 | Val Acc: 0.9438
+[2025-10-19 14:19:24] Epoch 7/60 | Train Loss: 0.2136 | Train Acc: 0.9371 | Val Acc: 0.9214
+[2025-10-19 14:19:40] Epoch 8/60 | Train Loss: 0.1997 | Train Acc: 0.9406 | Val Acc: 0.9277
+[2025-10-19 14:19:56] Epoch 9/60 | Train Loss: 0.1960 | Train Acc: 0.9425 | Val Acc: 0.8713
+[2025-10-19 14:20:12] Epoch 10/60 | Train Loss: 0.1843 | Train Acc: 0.9451 | Val Acc: 0.9101
+[2025-10-19 14:20:28] Epoch 11/60 | Train Loss: 0.1778 | Train Acc: 0.9489 | Val Acc: 0.9290
+[2025-10-19 14:20:44] Epoch 12/60 | Train Loss: 0.1829 | Train Acc: 0.9466 | Val Acc: 0.9359
+[2025-10-19 14:21:00] Epoch 13/60 | Train Loss: 0.1732 | Train Acc: 0.9499 | Val Acc: 0.8908
+[2025-10-19 14:21:15] Epoch 14/60 | Train Loss: 0.1658 | Train Acc: 0.9502 | Val Acc: 0.9519
+[2025-10-19 14:21:31] Epoch 15/60 | Train Loss: 0.1686 | Train Acc: 0.9508 | Val Acc: 0.9499
+[2025-10-19 14:21:49] Epoch 16/60 | Train Loss: 0.1641 | Train Acc: 0.9525 | Val Acc: 0.9442
+[2025-10-19 14:22:05] Epoch 17/60 | Train Loss: 0.1612 | Train Acc: 0.9535 | Val Acc: 0.9570
+[2025-10-19 14:22:21] Epoch 18/60 | Train Loss: 0.1521 | Train Acc: 0.9563 | Val Acc: 0.9598
+[2025-10-19 14:22:37] Epoch 19/60 | Train Loss: 0.1524 | Train Acc: 0.9555 | Val Acc: 0.9438
+[2025-10-19 14:22:53] Epoch 20/60 | Train Loss: 0.1503 | Train Acc: 0.9565 | Val Acc: 0.9356
+[2025-10-19 14:23:09] Epoch 21/60 | Train Loss: 0.1448 | Train Acc: 0.9578 | Val Acc: 0.9106
+[2025-10-19 14:23:25] Epoch 22/60 | Train Loss: 0.1425 | Train Acc: 0.9582 | Val Acc: 0.9231
+[2025-10-19 14:23:41] Epoch 23/60 | Train Loss: 0.1452 | Train Acc: 0.9580 | Val Acc: 0.9409
+[2025-10-19 14:23:57] Epoch 24/60 | Train Loss: 0.1376 | Train Acc: 0.9610 | Val Acc: 0.9519
+[2025-10-19 14:24:13] Epoch 25/60 | Train Loss: 0.1351 | Train Acc: 0.9599 | Val Acc: 0.9515
+[2025-10-19 14:24:31] Epoch 26/60 | Train Loss: 0.1312 | Train Acc: 0.9634 | Val Acc: 0.9589
+[2025-10-19 14:24:47] Epoch 27/60 | Train Loss: 0.1298 | Train Acc: 0.9628 | Val Acc: 0.9532
+[2025-10-19 14:25:03] Epoch 28/60 | Train Loss: 0.1258 | Train Acc: 0.9624 | Val Acc: 0.9615
+[2025-10-19 14:25:19] Epoch 29/60 | Train Loss: 0.1277 | Train Acc: 0.9631 | Val Acc: 0.9486
+[2025-10-19 14:25:35] Epoch 30/60 | Train Loss: 0.1186 | Train Acc: 0.9663 | Val Acc: 0.9581
+[2025-10-19 14:25:50] Epoch 31/60 | Train Loss: 0.1177 | Train Acc: 0.9662 | Val Acc: 0.9374
+[2025-10-19 14:26:06] Epoch 32/60 | Train Loss: 0.1191 | Train Acc: 0.9657 | Val Acc: 0.9429
+[2025-10-19 14:26:22] Epoch 33/60 | Train Loss: 0.1098 | Train Acc: 0.9689 | Val Acc: 0.9481
+[2025-10-19 14:26:38] Epoch 34/60 | Train Loss: 0.1085 | Train Acc: 0.9689 | Val Acc: 0.9435
+[2025-10-19 14:26:54] Epoch 35/60 | Train Loss: 0.1072 | Train Acc: 0.9683 | Val Acc: 0.9519
+[2025-10-19 14:27:10] Epoch 36/60 | Train Loss: 0.1027 | Train Acc: 0.9709 | Val Acc: 0.9561
+[2025-10-19 14:27:26] Epoch 37/60 | Train Loss: 0.1062 | Train Acc: 0.9686 | Val Acc: 0.9413
+[2025-10-19 14:27:42] Epoch 38/60 | Train Loss: 0.0943 | Train Acc: 0.9743 | Val Acc: 0.9512
+[2025-10-19 14:27:58] Epoch 39/60 | Train Loss: 0.0903 | Train Acc: 0.9743 | Val Acc: 0.9593
+[2025-10-19 14:28:14] Epoch 40/60 | Train Loss: 0.0922 | Train Acc: 0.9735 | Val Acc: 0.9585
+[2025-10-19 14:28:30] Epoch 41/60 | Train Loss: 0.0937 | Train Acc: 0.9732 | Val Acc: 0.9578
+[2025-10-19 14:28:46] Epoch 42/60 | Train Loss: 0.0876 | Train Acc: 0.9755 | Val Acc: 0.9556
+[2025-10-19 14:29:02] Epoch 43/60 | Train Loss: 0.0848 | Train Acc: 0.9762 | Val Acc: 0.9481
+[2025-10-19 14:29:18] Epoch 44/60 | Train Loss: 0.0800 | Train Acc: 0.9780 | Val Acc: 0.9574
+[2025-10-19 14:29:33] Epoch 45/60 | Train Loss: 0.0787 | Train Acc: 0.9775 | Val Acc: 0.9457
+[2025-10-19 14:29:49] Epoch 46/60 | Train Loss: 0.0736 | Train Acc: 0.9799 | Val Acc: 0.9574
+[2025-10-19 14:30:05] Epoch 47/60 | Train Loss: 0.0719 | Train Acc: 0.9809 | Val Acc: 0.9536
+[2025-10-19 14:30:21] Epoch 48/60 | Train Loss: 0.0686 | Train Acc: 0.9812 | Val Acc: 0.9526
+[2025-10-19 14:30:37] Epoch 49/60 | Train Loss: 0.0680 | Train Acc: 0.9815 | Val Acc: 0.9587
+[2025-10-19 14:30:54] Epoch 50/60 | Train Loss: 0.0642 | Train Acc: 0.9822 | Val Acc: 0.9655
+[2025-10-19 14:31:10] Epoch 51/60 | Train Loss: 0.0632 | Train Acc: 0.9828 | Val Acc: 0.9576
+[2025-10-19 14:31:26] Epoch 52/60 | Train Loss: 0.0608 | Train Acc: 0.9833 | Val Acc: 0.9561
+[2025-10-19 14:31:42] Epoch 53/60 | Train Loss: 0.0581 | Train Acc: 0.9834 | Val Acc: 0.9530
+[2025-10-19 14:31:58] Epoch 54/60 | Train Loss: 0.0576 | Train Acc: 0.9841 | Val Acc: 0.9604
+[2025-10-19 14:32:14] Epoch 55/60 | Train Loss: 0.0575 | Train Acc: 0.9841 | Val Acc: 0.9589
+[2025-10-19 14:32:30] Epoch 56/60 | Train Loss: 0.0562 | Train Acc: 0.9856 | Val Acc: 0.9589
+[2025-10-19 14:32:45] Epoch 57/60 | Train Loss: 0.0542 | Train Acc: 0.9861 | Val Acc: 0.9561
+[2025-10-19 14:33:01] Epoch 58/60 | Train Loss: 0.0552 | Train Acc: 0.9849 | Val Acc: 0.9556
+[2025-10-19 14:33:17] Epoch 59/60 | Train Loss: 0.0551 | Train Acc: 0.9852 | Val Acc: 0.9580
+[2025-10-19 14:33:33] Epoch 60/60 | Train Loss: 0.0553 | Train Acc: 0.9847 | Val Acc: 0.9587
+[2025-10-20 03:12:48] Running experiment 'augmented_resnet20' (강화된 데이터 증강 + 하드 샘플 가중)
+[2025-10-20 03:12:48] Focus sampler requested but no matching samples found; falling back to shuffle.
+[2025-10-20 03:12:49] Model: resnet20, optimizer: adam, lr: 0.001, wd: 0.0005, epochs: 60, batch_size: 64
+[2025-10-20 03:29:02] Running experiment 'augmented_resnet20' (강화된 데이터 증강 + 하드 샘플 가중)
+[2025-10-20 03:29:02] Using WeightedRandomSampler with weight=3.0 (matched 6538 samples)
+[2025-10-20 03:29:02] Model: resnet20, optimizer: adam, lr: 0.001, wd: 0.0005, epochs: 1, batch_size: 64
+[2025-10-20 03:41:12] Running experiment 'augmented_resnet20' (강화된 데이터 증강 + 하드 샘플 가중)
+[2025-10-20 03:41:12] Focus sampler requested but no matching samples found; falling back to shuffle.
+[2025-10-20 03:41:12] Model: resnet20, optimizer: adam, lr: 0.001, wd: 0.0005, epochs: 60, batch_size: 64
+[2025-10-20 03:41:38] Running experiment 'augmented_resnet20' (강화된 데이터 증강 + 하드 샘플 가중)
+[2025-10-20 03:41:38] Using WeightedRandomSampler with weight=3.0 (matched 6895 samples)
+[2025-10-20 03:41:39] Model: resnet20, optimizer: adam, lr: 0.001, wd: 0.0005, epochs: 1, batch_size: 64
+[2025-10-20 03:44:04] Running experiment 'augmented_resnet20' (강화된 데이터 증강 + 하드 샘플 가중)
+[2025-10-20 03:44:04] Using WeightedRandomSampler with weight=3.0 (matched 6895 samples)
+[2025-10-20 03:44:04] Model: resnet20, optimizer: adam, lr: 0.001, wd: 0.0005, epochs: 1, batch_size: 64
+[2025-10-20 03:44:19] Epoch 1/1 | Train Loss: 1.1621 | Train Acc: 0.6340 | Val Acc: 0.4646
+[2025-10-20 03:45:12] Running experiment 'augmented_resnet20' (강화된 데이터 증강 + 하드 샘플 가중)
+[2025-10-20 03:45:12] Focus sampler requested but no matching samples found; falling back to shuffle.
+[2025-10-20 03:45:12] Model: resnet20, optimizer: adam, lr: 0.001, wd: 0.0005, epochs: 60, batch_size: 64
+[2025-10-20 03:45:28] Epoch 1/60 | Train Loss: 1.0058 | Train Acc: 0.6871 | Val Acc: 0.8522
+[2025-10-20 03:45:43] Epoch 2/60 | Train Loss: 0.4169 | Train Acc: 0.8768 | Val Acc: 0.7733
+[2025-10-20 03:45:58] Epoch 3/60 | Train Loss: 0.3106 | Train Acc: 0.9072 | Val Acc: 0.9130
+[2025-10-20 03:46:14] Epoch 4/60 | Train Loss: 0.2596 | Train Acc: 0.9248 | Val Acc: 0.9086
+[2025-10-20 03:46:29] Epoch 5/60 | Train Loss: 0.2420 | Train Acc: 0.9291 | Val Acc: 0.8827
+[2025-10-20 03:46:46] Epoch 6/60 | Train Loss: 0.2274 | Train Acc: 0.9329 | Val Acc: 0.9000
+[2025-10-20 03:47:01] Epoch 7/60 | Train Loss: 0.2172 | Train Acc: 0.9363 | Val Acc: 0.9277
+[2025-10-20 03:47:16] Epoch 8/60 | Train Loss: 0.2027 | Train Acc: 0.9397 | Val Acc: 0.9328
+[2025-10-20 03:47:32] Epoch 9/60 | Train Loss: 0.1951 | Train Acc: 0.9425 | Val Acc: 0.8708
+[2025-10-20 03:47:47] Epoch 10/60 | Train Loss: 0.1882 | Train Acc: 0.9439 | Val Acc: 0.9012
+[2025-10-20 03:48:03] Epoch 11/60 | Train Loss: 0.1812 | Train Acc: 0.9469 | Val Acc: 0.8844
+[2025-10-20 03:48:18] Epoch 12/60 | Train Loss: 0.1805 | Train Acc: 0.9466 | Val Acc: 0.9090
+[2025-10-20 03:48:50] Running experiment 'augmented_resnet20' (강화된 데이터 증강 + 하드 샘플 가중)
+[2025-10-20 03:48:51] Using WeightedRandomSampler with weight=3.0 (matched 6895 samples)
+[2025-10-20 03:48:51] Model: resnet20, optimizer: adam, lr: 0.001, wd: 0.0005, epochs: 1, batch_size: 64
+[2025-10-20 03:49:06] Epoch 1/1 | Train Loss: 1.1815 | Train Acc: 0.6273 | Val Acc: 0.5325
+[2025-10-20 03:49:25] Running experiment 'augmented_resnet20' (강화된 데이터 증강 + 하드 샘플 가중)
+[2025-10-20 03:49:25] Using WeightedRandomSampler with weight=3.0 (matched 6895 samples)
+[2025-10-20 03:49:26] Model: resnet20, optimizer: adam, lr: 0.001, wd: 0.0005, epochs: 60, batch_size: 64
+[2025-10-20 03:49:41] Epoch 1/60 | Train Loss: 1.1618 | Train Acc: 0.6326 | Val Acc: 0.5297
+[2025-10-20 03:49:56] Epoch 2/60 | Train Loss: 0.5027 | Train Acc: 0.8513 | Val Acc: 0.8267
+[2025-10-20 03:50:11] Epoch 3/60 | Train Loss: 0.3869 | Train Acc: 0.8866 | Val Acc: 0.8409
+[2025-10-20 03:50:27] Epoch 4/60 | Train Loss: 0.3275 | Train Acc: 0.9015 | Val Acc: 0.8812
+[2025-10-20 03:50:42] Epoch 5/60 | Train Loss: 0.2971 | Train Acc: 0.9109 | Val Acc: 0.8649
+[2025-10-20 03:50:57] Epoch 6/60 | Train Loss: 0.2705 | Train Acc: 0.9188 | Val Acc: 0.9315
+[2025-10-20 03:51:12] Epoch 7/60 | Train Loss: 0.2566 | Train Acc: 0.9241 | Val Acc: 0.9079
+[2025-10-20 03:51:27] Epoch 8/60 | Train Loss: 0.2399 | Train Acc: 0.9290 | Val Acc: 0.8970
+[2025-10-20 03:51:42] Epoch 9/60 | Train Loss: 0.2383 | Train Acc: 0.9296 | Val Acc: 0.9141
+[2025-10-20 03:51:57] Epoch 10/60 | Train Loss: 0.2338 | Train Acc: 0.9301 | Val Acc: 0.9387
+[2025-10-20 03:52:12] Epoch 11/60 | Train Loss: 0.2262 | Train Acc: 0.9328 | Val Acc: 0.8365
+[2025-10-20 03:52:27] Epoch 12/60 | Train Loss: 0.2100 | Train Acc: 0.9368 | Val Acc: 0.9383
+[2025-10-20 03:52:42] Epoch 13/60 | Train Loss: 0.2150 | Train Acc: 0.9366 | Val Acc: 0.9302
+[2025-10-20 03:52:57] Epoch 14/60 | Train Loss: 0.2049 | Train Acc: 0.9377 | Val Acc: 0.9064
+[2025-10-20 03:53:12] Epoch 15/60 | Train Loss: 0.1988 | Train Acc: 0.9416 | Val Acc: 0.9097
+[2025-10-20 03:53:27] Epoch 16/60 | Train Loss: 0.2091 | Train Acc: 0.9383 | Val Acc: 0.9400
+[2025-10-20 03:53:42] Epoch 17/60 | Train Loss: 0.1897 | Train Acc: 0.9445 | Val Acc: 0.9466
+[2025-10-20 03:53:57] Epoch 18/60 | Train Loss: 0.1851 | Train Acc: 0.9418 | Val Acc: 0.9341
+[2025-10-20 03:54:12] Epoch 19/60 | Train Loss: 0.1897 | Train Acc: 0.9447 | Val Acc: 0.9470
+[2025-10-20 03:54:27] Epoch 20/60 | Train Loss: 0.1885 | Train Acc: 0.9435 | Val Acc: 0.9438
+[2025-10-20 03:54:42] Epoch 21/60 | Train Loss: 0.1826 | Train Acc: 0.9469 | Val Acc: 0.9200
+[2025-10-20 03:54:57] Epoch 22/60 | Train Loss: 0.1698 | Train Acc: 0.9506 | Val Acc: 0.9605
+[2025-10-20 03:55:12] Epoch 23/60 | Train Loss: 0.1708 | Train Acc: 0.9482 | Val Acc: 0.9266
+[2025-10-20 03:55:26] Epoch 24/60 | Train Loss: 0.1683 | Train Acc: 0.9483 | Val Acc: 0.9315
+[2025-10-20 03:55:41] Epoch 25/60 | Train Loss: 0.1606 | Train Acc: 0.9547 | Val Acc: 0.9176
+[2025-10-20 03:55:56] Epoch 26/60 | Train Loss: 0.1617 | Train Acc: 0.9508 | Val Acc: 0.9440
+[2025-10-20 03:56:11] Epoch 27/60 | Train Loss: 0.1543 | Train Acc: 0.9550 | Val Acc: 0.9402
+[2025-10-20 03:56:26] Epoch 28/60 | Train Loss: 0.1562 | Train Acc: 0.9533 | Val Acc: 0.9504
+[2025-10-20 03:56:41] Epoch 29/60 | Train Loss: 0.1555 | Train Acc: 0.9536 | Val Acc: 0.9594
+[2025-10-20 03:56:56] Epoch 30/60 | Train Loss: 0.1406 | Train Acc: 0.9599 | Val Acc: 0.9363
+[2025-10-20 03:57:11] Epoch 31/60 | Train Loss: 0.1392 | Train Acc: 0.9585 | Val Acc: 0.9587
+[2025-10-20 03:57:26] Epoch 32/60 | Train Loss: 0.1385 | Train Acc: 0.9604 | Val Acc: 0.9174
+[2025-10-20 03:57:41] Epoch 33/60 | Train Loss: 0.1362 | Train Acc: 0.9598 | Val Acc: 0.9495
+[2025-10-20 03:57:56] Epoch 34/60 | Train Loss: 0.1260 | Train Acc: 0.9637 | Val Acc: 0.9409
+[2025-10-20 03:58:11] Epoch 35/60 | Train Loss: 0.1248 | Train Acc: 0.9637 | Val Acc: 0.9515
+[2025-10-20 03:58:26] Epoch 36/60 | Train Loss: 0.1171 | Train Acc: 0.9638 | Val Acc: 0.9336
+[2025-10-20 03:58:41] Epoch 37/60 | Train Loss: 0.1144 | Train Acc: 0.9656 | Val Acc: 0.9459
+[2025-10-20 03:58:56] Epoch 38/60 | Train Loss: 0.1102 | Train Acc: 0.9676 | Val Acc: 0.9495
+[2025-10-20 03:59:11] Epoch 39/60 | Train Loss: 0.1121 | Train Acc: 0.9681 | Val Acc: 0.9600
+[2025-10-20 03:59:26] Epoch 40/60 | Train Loss: 0.1042 | Train Acc: 0.9697 | Val Acc: 0.9488
+[2025-10-20 03:59:41] Epoch 41/60 | Train Loss: 0.0985 | Train Acc: 0.9715 | Val Acc: 0.9616
+[2025-10-20 03:59:56] Epoch 42/60 | Train Loss: 0.1008 | Train Acc: 0.9715 | Val Acc: 0.9532
+[2025-10-20 04:00:10] Epoch 43/60 | Train Loss: 0.0907 | Train Acc: 0.9733 | Val Acc: 0.9593
+[2025-10-20 04:00:25] Epoch 44/60 | Train Loss: 0.0912 | Train Acc: 0.9736 | Val Acc: 0.9604
+[2025-10-20 04:00:40] Epoch 45/60 | Train Loss: 0.0852 | Train Acc: 0.9750 | Val Acc: 0.9609
+[2025-10-20 04:00:55] Epoch 46/60 | Train Loss: 0.0855 | Train Acc: 0.9759 | Val Acc: 0.9400
+[2025-10-20 04:01:10] Epoch 47/60 | Train Loss: 0.0766 | Train Acc: 0.9781 | Val Acc: 0.9514
+[2025-10-20 04:01:25] Epoch 48/60 | Train Loss: 0.0750 | Train Acc: 0.9787 | Val Acc: 0.9615
+[2025-10-20 04:01:40] Epoch 49/60 | Train Loss: 0.0696 | Train Acc: 0.9798 | Val Acc: 0.9464
+[2025-10-20 04:01:55] Epoch 50/60 | Train Loss: 0.0723 | Train Acc: 0.9794 | Val Acc: 0.9528
+[2025-10-20 04:02:10] Epoch 51/60 | Train Loss: 0.0687 | Train Acc: 0.9798 | Val Acc: 0.9429
+[2025-10-20 04:02:25] Epoch 52/60 | Train Loss: 0.0688 | Train Acc: 0.9817 | Val Acc: 0.9521
+[2025-10-20 04:02:40] Epoch 53/60 | Train Loss: 0.0644 | Train Acc: 0.9814 | Val Acc: 0.9556
+[2025-10-20 04:02:55] Epoch 54/60 | Train Loss: 0.0660 | Train Acc: 0.9818 | Val Acc: 0.9499
+[2025-10-20 04:03:10] Epoch 55/60 | Train Loss: 0.0619 | Train Acc: 0.9833 | Val Acc: 0.9539
+[2025-10-20 04:03:25] Epoch 56/60 | Train Loss: 0.0594 | Train Acc: 0.9832 | Val Acc: 0.9515
+[2025-10-20 04:03:40] Epoch 57/60 | Train Loss: 0.0572 | Train Acc: 0.9854 | Val Acc: 0.9495
+[2025-10-20 04:03:55] Epoch 58/60 | Train Loss: 0.0618 | Train Acc: 0.9828 | Val Acc: 0.9548
+[2025-10-20 04:04:10] Epoch 59/60 | Train Loss: 0.0592 | Train Acc: 0.9830 | Val Acc: 0.9539
+[2025-10-20 04:04:25] Epoch 60/60 | Train Loss: 0.0585 | Train Acc: 0.9847 | Val Acc: 0.9517

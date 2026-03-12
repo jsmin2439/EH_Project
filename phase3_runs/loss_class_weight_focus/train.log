@@ -1,0 +1,35 @@
+[2025-11-16 15:22:26] Running experiment 'loss_class_weight_focus' (CrossEntropy + class weights for noisy/small emphasis.)
+[2025-11-16 15:22:27] Class weights applied (focus_factor=3.0): ['0.17', '0.56', '0.49', '0.48', '1.18', '1.06', '0.59', '1.60', '1.25', '2.62']
+[2025-11-16 15:22:44] Epoch 1/60 | Loss 1.7055 | Train Acc 0.3943 | Val Acc 0.4429
+[2025-11-16 15:23:02] Epoch 2/60 | Loss 0.5383 | Train Acc 0.8486 | Val Acc 0.7467
+[2025-11-16 15:23:20] Epoch 3/60 | Loss 0.3500 | Train Acc 0.9044 | Val Acc 0.8875
+[2025-11-16 15:23:37] Epoch 4/60 | Loss 0.2693 | Train Acc 0.9295 | Val Acc 0.8805
+[2025-11-16 15:23:53] Epoch 5/60 | Loss 0.2782 | Train Acc 0.9264 | Val Acc 0.7979
+[2025-11-16 15:24:10] Epoch 6/60 | Loss 0.2327 | Train Acc 0.9368 | Val Acc 0.8932
+[2025-11-16 15:24:27] Epoch 7/60 | Loss 0.2366 | Train Acc 0.9389 | Val Acc 0.8554
+[2025-11-16 15:24:43] Epoch 8/60 | Loss 0.2162 | Train Acc 0.9450 | Val Acc 0.8946
+[2025-11-16 15:25:00] Epoch 9/60 | Loss 0.2161 | Train Acc 0.9430 | Val Acc 0.8878
+[2025-11-16 15:25:16] Epoch 10/60 | Loss 0.2060 | Train Acc 0.9476 | Val Acc 0.7896
+[2025-11-16 15:25:33] Epoch 11/60 | Loss 0.2080 | Train Acc 0.9466 | Val Acc 0.8816
+[2025-11-16 15:25:50] Epoch 12/60 | Loss 0.2005 | Train Acc 0.9498 | Val Acc 0.7427
+[2025-11-16 15:26:07] Epoch 13/60 | Loss 0.1927 | Train Acc 0.9479 | Val Acc 0.8711
+[2025-11-16 15:26:24] Epoch 14/60 | Loss 0.1853 | Train Acc 0.9505 | Val Acc 0.8563
+[2025-11-16 15:26:41] Epoch 15/60 | Loss 0.1932 | Train Acc 0.9488 | Val Acc 0.8616
+[2025-11-16 15:26:57] Epoch 16/60 | Loss 0.1893 | Train Acc 0.9505 | Val Acc 0.7583
+[2025-11-16 15:27:14] Epoch 17/60 | Loss 0.1858 | Train Acc 0.9510 | Val Acc 0.8972
+[2025-11-16 15:27:31] Epoch 18/60 | Loss 0.1695 | Train Acc 0.9540 | Val Acc 0.8737
+[2025-11-16 15:27:47] Epoch 19/60 | Loss 0.1891 | Train Acc 0.9512 | Val Acc 0.8113
+[2025-11-16 15:28:04] Epoch 20/60 | Loss 0.1759 | Train Acc 0.9536 | Val Acc 0.8866
+[2025-11-16 15:28:20] Epoch 21/60 | Loss 0.1656 | Train Acc 0.9563 | Val Acc 0.8609
+[2025-11-16 15:28:37] Epoch 22/60 | Loss 0.1585 | Train Acc 0.9597 | Val Acc 0.8486
+[2025-11-16 15:28:56] Epoch 23/60 | Loss 0.1550 | Train Acc 0.9608 | Val Acc 0.8366
+[2025-11-16 15:29:25] Epoch 24/60 | Loss 0.1662 | Train Acc 0.9571 | Val Acc 0.8770
+[2025-11-16 15:29:53] Epoch 25/60 | Loss 0.1575 | Train Acc 0.9597 | Val Acc 0.8849
+[2025-11-16 15:30:22] Epoch 26/60 | Loss 0.1642 | Train Acc 0.9581 | Val Acc 0.9137
+[2025-11-16 15:30:51] Epoch 27/60 | Loss 0.1448 | Train Acc 0.9625 | Val Acc 0.6946
+[2025-11-16 15:31:20] Epoch 28/60 | Loss 0.1481 | Train Acc 0.9618 | Val Acc 0.9003
+[2025-11-16 15:31:49] Epoch 29/60 | Loss 0.1523 | Train Acc 0.9623 | Val Acc 0.9069
+[2025-11-16 15:32:18] Epoch 30/60 | Loss 0.1435 | Train Acc 0.9619 | Val Acc 0.9444
+[2025-11-16 15:32:47] Epoch 31/60 | Loss 0.1403 | Train Acc 0.9644 | Val Acc 0.8629
+[2025-11-16 15:33:15] Epoch 32/60 | Loss 0.1346 | Train Acc 0.9640 | Val Acc 0.9192
+[2025-11-16 15:33:44] Epoch 33/60 | Loss 0.1246 | Train Acc 0.9669 | Val Acc 0.8493
