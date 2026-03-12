@@ -1,0 +1,2 @@
+dataset/classification/experiment_v3_results/convnext/final_model.pth filter=lfs diff=lfs merge=lfs -text
+dataset/classification/experiment_v3_results/swin/final_model.pth filter=lfs diff=lfs merge=lfs -text

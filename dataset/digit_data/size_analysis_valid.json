@@ -1,0 +1,32 @@
+{
+  "statistics": {
+    "total_samples": 5448,
+    "small_threshold": 2763.75,
+    "noisy_ratio_threshold": 0.3,
+    "noisy_contrast_threshold": 0.08,
+    "small_count": 1362,
+    "noisy_count": 659,
+    "hard_count": 1701,
+    "content_area_stats": {
+      "mean": 17438.10535976505,
+      "median": 7696.0,
+      "std": 20176.75607290387,
+      "min": 72.0,
+      "max": 169344.0
+    },
+    "non_bg_ratio_stats": {
+      "mean": 0.9794401783048932,
+      "median": 1.0,
+      "std": 0.05145291627559291,
+      "min": 0.549983113812901,
+      "max": 1.0
+    },
+    "contrast_stats": {
+      "mean": 0.18433756340205293,
+      "median": 0.1930036179951115,
+      "std": 0.08306583988253487,
+      "min": 0.030485957004533232,
+      "max": 0.3483055606569487
+    }
+  }
+}

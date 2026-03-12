@@ -1,0 +1,11 @@
+--batch_size 128
+--cuda False
+--data_dir ./digit_data
+--epochs 1
+--lr 0.001
+--model resnet20
+--optimizer adam
+--scheduler cosine
+--size 64
+--weight_decay 0.0005
+Epoch:   1| Train loss: 0.8730| Train Acc: 0.7348| Valid Acc: 0.8844

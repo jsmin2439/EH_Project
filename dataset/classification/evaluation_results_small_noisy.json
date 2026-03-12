@@ -1,0 +1,18 @@
+{
+  "resnet20": {
+    "overall_acc": 0.9917400881057269,
+    "small_acc": 0.9838472834067548,
+    "noisy_acc": 0.9742033383915023,
+    "total_samples": 5448,
+    "small_samples": 1362,
+    "noisy_samples": 659
+  },
+  "model_resnet32x4_wide": {
+    "overall_acc": 0.9906387665198237,
+    "small_acc": 0.9809104258443465,
+    "noisy_acc": 0.9726858877086495,
+    "total_samples": 5448,
+    "small_samples": 1362,
+    "noisy_samples": 659
+  }
+}

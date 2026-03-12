@@ -1,0 +1,132 @@
+--batch_size 128
+--cuda False
+--data_dir ./digit_data
+--epochs 100
+--lr 0.001
+--model resnet20
+--optimizer adam
+--scheduler cosine
+--size 64
+--weight_decay 0.0005
+Epoch:   1| Train loss: 0.9694| Train Acc: 0.7010| Valid Acc: 0.8994
+Epoch:   2| Train loss: 0.1967| Train Acc: 0.9564| Valid Acc: 0.9493
+Epoch:   3| Train loss: 0.1217| Train Acc: 0.9704| Valid Acc: 0.9767
+Epoch:   4| Train loss: 0.0909| Train Acc: 0.9776| Valid Acc: 0.9611
+Epoch:   5| Train loss: 0.0767| Train Acc: 0.9817| Valid Acc: 0.9715
+Epoch:   6| Train loss: 0.0730| Train Acc: 0.9823| Valid Acc: 0.9796
+Epoch:   7| Train loss: 0.0674| Train Acc: 0.9829| Valid Acc: 0.9670
+Epoch:   8| Train loss: 0.0646| Train Acc: 0.9846| Valid Acc: 0.9719
+Epoch:   9| Train loss: 0.0622| Train Acc: 0.9847| Valid Acc: 0.9350
+Epoch:  10| Train loss: 0.0591| Train Acc: 0.9857| Valid Acc: 0.9844
+Epoch:  11| Train loss: 0.0544| Train Acc: 0.9870| Valid Acc: 0.9677
+Epoch:  12| Train loss: 0.0540| Train Acc: 0.9871| Valid Acc: 0.9761
+--batch_size 128
+--cuda True
+--data_dir ./digit_data
+--epochs 100
+--lr 0.001
+--model resnet20
+--optimizer adam
+--scheduler cosine
+--size 64
+--weight_decay 0.0005
+Epoch:   1| Train loss: 0.8416| Train Acc: 0.7487| Valid Acc: 0.9220
+Epoch:   2| Train loss: 0.1836| Train Acc: 0.9576| Valid Acc: 0.9383
+Epoch:   3| Train loss: 0.1142| Train Acc: 0.9726| Valid Acc: 0.9492
+Epoch:   4| Train loss: 0.0866| Train Acc: 0.9777| Valid Acc: 0.9809
+Epoch:   5| Train loss: 0.0710| Train Acc: 0.9839| Valid Acc: 0.9804
+Epoch:   6| Train loss: 0.0710| Train Acc: 0.9826| Valid Acc: 0.9743
+Epoch:   7| Train loss: 0.0612| Train Acc: 0.9846| Valid Acc: 0.9605
+Epoch:   8| Train loss: 0.0650| Train Acc: 0.9847| Valid Acc: 0.9802
+Epoch:   9| Train loss: 0.0575| Train Acc: 0.9863| Valid Acc: 0.9763
+Epoch:  10| Train loss: 0.0551| Train Acc: 0.9868| Valid Acc: 0.9816
+Epoch:  11| Train loss: 0.0557| Train Acc: 0.9866| Valid Acc: 0.9780
+Epoch:  12| Train loss: 0.0556| Train Acc: 0.9861| Valid Acc: 0.9862
+Epoch:  13| Train loss: 0.0473| Train Acc: 0.9889| Valid Acc: 0.9686
+Epoch:  14| Train loss: 0.0488| Train Acc: 0.9884| Valid Acc: 0.9842
+Epoch:  15| Train loss: 0.0488| Train Acc: 0.9880| Valid Acc: 0.9820
+Epoch:  16| Train loss: 0.0427| Train Acc: 0.9902| Valid Acc: 0.9778
+Epoch:  17| Train loss: 0.0414| Train Acc: 0.9912| Valid Acc: 0.9677
+Epoch:  18| Train loss: 0.0456| Train Acc: 0.9896| Valid Acc: 0.9844
+Epoch:  19| Train loss: 0.0400| Train Acc: 0.9907| Valid Acc: 0.9727
+Epoch:  20| Train loss: 0.0434| Train Acc: 0.9897| Valid Acc: 0.9802
+Epoch:  21| Train loss: 0.0448| Train Acc: 0.9890| Valid Acc: 0.9829
+Epoch:  22| Train loss: 0.0392| Train Acc: 0.9906| Valid Acc: 0.9848
+Epoch:  23| Train loss: 0.0375| Train Acc: 0.9915| Valid Acc: 0.9827
+Epoch:  24| Train loss: 0.0382| Train Acc: 0.9915| Valid Acc: 0.9835
+Epoch:  25| Train loss: 0.0435| Train Acc: 0.9893| Valid Acc: 0.9804
+Epoch:  26| Train loss: 0.0346| Train Acc: 0.9918| Valid Acc: 0.9875
+Epoch:  27| Train loss: 0.0356| Train Acc: 0.9921| Valid Acc: 0.9840
+Epoch:  28| Train loss: 0.0327| Train Acc: 0.9922| Valid Acc: 0.9782
+Epoch:  29| Train loss: 0.0352| Train Acc: 0.9916| Valid Acc: 0.9859
+Epoch:  30| Train loss: 0.0334| Train Acc: 0.9919| Valid Acc: 0.9543
+Epoch:  31| Train loss: 0.0320| Train Acc: 0.9927| Valid Acc: 0.9692
+Epoch:  32| Train loss: 0.0354| Train Acc: 0.9917| Valid Acc: 0.9791
+Epoch:  33| Train loss: 0.0303| Train Acc: 0.9931| Valid Acc: 0.9837
+Epoch:  34| Train loss: 0.0296| Train Acc: 0.9926| Valid Acc: 0.9824
+Epoch:  35| Train loss: 0.0271| Train Acc: 0.9944| Valid Acc: 0.9870
+Epoch:  36| Train loss: 0.0237| Train Acc: 0.9945| Valid Acc: 0.9884
+Epoch:  37| Train loss: 0.0285| Train Acc: 0.9938| Valid Acc: 0.9840
+Epoch:  38| Train loss: 0.0227| Train Acc: 0.9949| Valid Acc: 0.9789
+Epoch:  39| Train loss: 0.0244| Train Acc: 0.9946| Valid Acc: 0.9826
+Epoch:  40| Train loss: 0.0276| Train Acc: 0.9930| Valid Acc: 0.9844
+Epoch:  41| Train loss: 0.0248| Train Acc: 0.9947| Valid Acc: 0.9873
+Epoch:  42| Train loss: 0.0214| Train Acc: 0.9956| Valid Acc: 0.9875
+Epoch:  43| Train loss: 0.0187| Train Acc: 0.9958| Valid Acc: 0.9747
+Epoch:  44| Train loss: 0.0177| Train Acc: 0.9961| Valid Acc: 0.9846
+Epoch:  45| Train loss: 0.0138| Train Acc: 0.9972| Valid Acc: 0.9855
+Epoch:  46| Train loss: 0.0189| Train Acc: 0.9961| Valid Acc: 0.9745
+Epoch:  47| Train loss: 0.0182| Train Acc: 0.9961| Valid Acc: 0.9844
+Epoch:  48| Train loss: 0.0207| Train Acc: 0.9948| Valid Acc: 0.9703
+Epoch:  49| Train loss: 0.0138| Train Acc: 0.9972| Valid Acc: 0.9870
+Epoch:  50| Train loss: 0.0145| Train Acc: 0.9967| Valid Acc: 0.9875
+Epoch:  51| Train loss: 0.0119| Train Acc: 0.9978| Valid Acc: 0.9888
+Epoch:  52| Train loss: 0.0060| Train Acc: 0.9991| Valid Acc: 0.9866
+Epoch:  53| Train loss: 0.0114| Train Acc: 0.9980| Valid Acc: 0.9872
+Epoch:  54| Train loss: 0.0073| Train Acc: 0.9989| Valid Acc: 0.9848
+Epoch:  55| Train loss: 0.0107| Train Acc: 0.9983| Valid Acc: 0.9831
+Epoch:  56| Train loss: 0.0155| Train Acc: 0.9970| Valid Acc: 0.9870
+Epoch:  57| Train loss: 0.0129| Train Acc: 0.9977| Valid Acc: 0.9870
+Epoch:  58| Train loss: 0.0048| Train Acc: 0.9993| Valid Acc: 0.9910
+Epoch:  59| Train loss: 0.0027| Train Acc: 0.9998| Valid Acc: 0.9862
+Epoch:  60| Train loss: 0.0041| Train Acc: 0.9995| Valid Acc: 0.9883
+Epoch:  61| Train loss: 0.0077| Train Acc: 0.9987| Valid Acc: 0.9813
+Epoch:  62| Train loss: 0.0114| Train Acc: 0.9980| Valid Acc: 0.9890
+Epoch:  63| Train loss: 0.0070| Train Acc: 0.9989| Valid Acc: 0.9894
+Epoch:  64| Train loss: 0.0064| Train Acc: 0.9989| Valid Acc: 0.9892
+Epoch:  65| Train loss: 0.0023| Train Acc: 1.0000| Valid Acc: 0.9919
+Epoch:  66| Train loss: 0.0024| Train Acc: 0.9999| Valid Acc: 0.9894
+Epoch:  67| Train loss: 0.0020| Train Acc: 1.0000| Valid Acc: 0.9919
+Epoch:  68| Train loss: 0.0026| Train Acc: 1.0000| Valid Acc: 0.9914
+Epoch:  69| Train loss: 0.0019| Train Acc: 1.0000| Valid Acc: 0.9901
+Epoch:  70| Train loss: 0.0019| Train Acc: 1.0000| Valid Acc: 0.9925
+Epoch:  71| Train loss: 0.0018| Train Acc: 1.0000| Valid Acc: 0.9921
+Epoch:  72| Train loss: 0.0025| Train Acc: 0.9999| Valid Acc: 0.9892
+Epoch:  73| Train loss: 0.0116| Train Acc: 0.9982| Valid Acc: 0.9897
+Epoch:  74| Train loss: 0.0072| Train Acc: 0.9990| Valid Acc: 0.9903
+Epoch:  75| Train loss: 0.0028| Train Acc: 0.9999| Valid Acc: 0.9932
+Epoch:  76| Train loss: 0.0016| Train Acc: 1.0000| Valid Acc: 0.9928
+Epoch:  77| Train loss: 0.0017| Train Acc: 1.0000| Valid Acc: 0.9925
+Epoch:  78| Train loss: 0.0022| Train Acc: 0.9999| Valid Acc: 0.9927
+Epoch:  79| Train loss: 0.0016| Train Acc: 1.0000| Valid Acc: 0.9923
+Epoch:  80| Train loss: 0.0017| Train Acc: 1.0000| Valid Acc: 0.9927
+Epoch:  81| Train loss: 0.0017| Train Acc: 1.0000| Valid Acc: 0.9927
+Epoch:  82| Train loss: 0.0017| Train Acc: 1.0000| Valid Acc: 0.9928
+Epoch:  83| Train loss: 0.0016| Train Acc: 1.0000| Valid Acc: 0.9919
+Epoch:  84| Train loss: 0.0033| Train Acc: 0.9999| Valid Acc: 0.9921
+Epoch:  85| Train loss: 0.0019| Train Acc: 1.0000| Valid Acc: 0.9928
+Epoch:  86| Train loss: 0.0016| Train Acc: 1.0000| Valid Acc: 0.9925
+Epoch:  87| Train loss: 0.0017| Train Acc: 1.0000| Valid Acc: 0.9928
+Epoch:  88| Train loss: 0.0017| Train Acc: 1.0000| Valid Acc: 0.9927
+Epoch:  89| Train loss: 0.0015| Train Acc: 1.0000| Valid Acc: 0.9925
+Epoch:  90| Train loss: 0.0017| Train Acc: 1.0000| Valid Acc: 0.9928
+Epoch:  91| Train loss: 0.0017| Train Acc: 1.0000| Valid Acc: 0.9927
+Epoch:  92| Train loss: 0.0016| Train Acc: 1.0000| Valid Acc: 0.9923
+Epoch:  93| Train loss: 0.0016| Train Acc: 1.0000| Valid Acc: 0.9928
+Epoch:  94| Train loss: 0.0016| Train Acc: 1.0000| Valid Acc: 0.9921
+Epoch:  95| Train loss: 0.0016| Train Acc: 1.0000| Valid Acc: 0.9925
+Epoch:  96| Train loss: 0.0017| Train Acc: 1.0000| Valid Acc: 0.9921
+Epoch:  97| Train loss: 0.0016| Train Acc: 1.0000| Valid Acc: 0.9927
+Epoch:  98| Train loss: 0.0016| Train Acc: 1.0000| Valid Acc: 0.9925
+Epoch:  99| Train loss: 0.0016| Train Acc: 1.0000| Valid Acc: 0.9930
+Epoch: 100| Train loss: 0.0016| Train Acc: 1.0000| Valid Acc: 0.9927
